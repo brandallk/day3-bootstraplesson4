@@ -1,0 +1,194 @@
+
+
+/**************************
+    General
+**************************/
+
+body {    
+    line-height: 1.8rem;
+}
+
+
+/**************************
+    Header
+**************************/
+
+.main-header {
+    height: 42rem;
+    background: linear-gradient(
+        rgb(140, 211, 255), rgb(91, 139, 169)
+    );
+    overflow: hidden;
+}
+
+.nav-link {
+    font-size: smaller;
+}
+
+.nav {
+    font-size: 0.8rem;
+}
+
+.nav .logo {
+    font-family: cursive;
+    font-size: 1rem;
+}
+
+.main-heading {
+    position: inherit;
+    width: 80%;
+    margin: 7rem auto 0;
+}
+
+@media (min-width: 390px) {
+    .main-header {
+        height: 38rem;
+    }
+    .nav .logo {
+        font-size: 1.5rem;
+    }
+    .nav {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .main-header {
+        height: 34rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-header {
+        height: 38rem;
+    }
+    .main-heading {
+        position: absolute;
+        width: 50%;
+        bottom: -26rem;
+    }
+}
+
+.main-heading p {
+    font-size: 0.75rem;
+}
+
+.download-buttons .btn {
+    background: rgb(91, 139, 169);
+    border-radius: 1rem;
+    border-color: rgb(107, 161, 194);
+    font-size: 0.75rem;
+}
+
+.download-buttons .btn:hover {
+    background: rgb(96, 144, 174);
+}
+
+img.phone {
+    bottom: -38rem;
+    right: 2rem;
+}
+
+
+/**************************
+    Features section
+**************************/
+
+.features .container {
+    padding-bottom: 8rem;
+}
+
+.features-header {
+    padding: 7rem 0 2rem;
+}
+
+.features-card:hover {
+    box-shadow: 0 0 40px rgb(225, 225, 225);
+    text-decoration: none;
+}
+
+.features-card:hover a {
+    text-decoration: none;
+}
+
+.card-icon {
+    height: 8rem;
+    padding-top: 5rem;
+}
+
+.features-card p {
+    font-size: smaller;
+}
+
+@media (min-width: 990px) {
+    .features-header {
+        padding-bottom: 6rem;
+    }
+}
+
+
+/**************************
+    Media section
+**************************/
+
+.media-section {
+    background-color: rgb(93,161,206);
+}
+
+.media-object {
+    background-image: url(https://static1.squarespace.com/static/578847e3d482e93ab12abd1e/57a0ff23197aea9a03578d47/58f6908d893fc0eeb1e48c56/1492554556988/Video+image+1.jpg?format=1500w);
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+    min-height: 18rem;
+    position: relative;
+}
+
+.media-object:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.35);
+
+}
+
+.media-section p {
+    font-size: 0.8rem;
+}
+
+@media (min-width: 768px) {
+    .media-section p {
+        font-size: 1rem;
+        width: 75%;
+    }
+}
+
+
+/**************************
+    Footer
+**************************/
+
+footer {
+    background-color: rgb(54,64,73);
+    font-size: 0.5rem;
+    line-height: 0.75rem;
+}
+
+.company-info .logo {
+    font-family: cursive;
+}
+
+.social-links a {
+    background-color: rgb(65,78,87);
+}
+
+.social-links i {
+    width: 0.75rem;
+}
+
+.credits {
+    font-size: 0.65rem;
+}
